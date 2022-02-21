@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dang ky tai khoan</title>
+</head>
+<body>
+    <a href="index.html">Home</a>
+    <form action="https://api.test.com/dang.ky" method="post">
+        <div class="col-50">
+            <label for="username">username</label>
+            <input type="text">
+            <label for="password">password</label>
+            <input type="password">
+            <label for="date">date</label>
+            <input type="date">
+            <label for="age">Age</label>
+            <input type="number">
+        </div>
+        <div class="col-50">
+            <label for="email">Email</label>
+            <input type="email">
+            <label for="address" >Address</label>
+            <input type="text " height="50px">
+            <label for="website">website</label>
+            <input type="url">
+
+        </div>
+        
+        <button type="submit">Summit</button>
+    </form>
+    
+</body>
+<style>
+        .col-50 {
+            width: 50%;          
+            display: inline-block;
+            float: left;
+            padding: 15px;
+            box-sizing: border-box;
+        }
+        .col-50 label, .col-50 input {
+            width: 100%;
+        }
+</style>    
+</html> 
